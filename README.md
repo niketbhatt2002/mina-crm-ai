@@ -1,6 +1,6 @@
 # mina-crm-ai
 An AI powered CRM tool
-# 🚀 Mina CRM — AI-Powered All-in-One CRM and Task Manager.
+# 🚀 Mina CRM — AI-Powered All-in-One CRM and Task Manager
 
 Mina CRM is an intelligent, AI-powered web application that blends the flexibility of Zoho CRM, the task structuring of Jira, and the UX of ClickUp — built for modern teams that want to automate client workflows, ticket management, and internal collaboration in one place.
 
