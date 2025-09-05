@@ -1,28 +1,41 @@
-# mina-crm-ai
-An AI powered CRM tool
-# 🚀 Mina CRM — AI-Powered All-in-One CRM and Task Manager.
+# Mina CRM AI
 
-Mina CRM is an intelligent, AI-powered web application that blends the flexibility of Zoho CRM, the task structuring of Jira, and the UX of ClickUp — built for modern teams that want to automate client workflows, ticket management, and internal collaboration in one place.
+## Project Overview
+Mina CRM AI is a modern, multi-tenant, AI-powered CRM SaaS application built with Next.js 14+, Prisma, PostgreSQL, and Tailwind CSS.
 
-## 🎯 Key Features (Planned MVP)
-- 🧠 AI Task Ticket Generator from chats, notes, or emails
-- 📊 CRM Module for lead/client management
-- 📋 Kanban & Sprint Boards with drag-and-drop
-- 🧑‍💼 Role-based Dashboards for Admin, Manager, and Member
-- ⏰ Smart Reminders, Prioritization, and Notifications
+## Features
+- Multi-tenant: Organizations & projects
+- Contacts, leads, tasks, notes, files
+- Beautiful dashboard & analytics
+- AI-powered assistant & suggestions
+- Billing, user roles, and permissions
+- Google OAuth, Slack, Stripe, OpenAI integrations
 
-## 🔧 Tech Stack (Planned)
-| Frontend | Backend | Database | AI Layer | Deployment |
-|----------|---------|----------|----------|------------|
-| React.js + TailwindCSS | Node.js + Express | MongoDB Atlas | OpenAI API | Vercel + Render |
+## Tech Stack
+- Next.js 14+
+- TypeScript
+- Tailwind CSS
+- Prisma ORM (+ PostgreSQL)
+- NextAuth.js (Auth)
+- Stripe (Billing)
+- OpenAI (AI features)
 
-## 🌐 Live Deployment
-> Coming soon...
+## Getting Started
 
-## 📅 Built For
-🎉 [Hack the North 2025](https://hackthenorth.com/) — Canada’s biggest hackathon
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Copy `.env.example` to `.env` and fill out your own secrets.
+4. Set up the database:
+   ```bash
+   npx prisma migrate dev
+   ```
+5. Run the app:
+   ```bash
+   npm run dev
+   ```
 
-## 💻 Getting Started
-> Project structure, setup guide, and development phases will be added shortly.
-
-Stay tuned as we bring Mina CRM to life, one commit at a time 🚀
+## License
+MIT
